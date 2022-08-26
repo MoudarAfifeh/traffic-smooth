@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.home-container {
+    background-image: url('../src/assets/images/homeBg.svg');
+}
+
+.faq-container {
+    background-image: url('../src/assets/images/faqBg.svg');
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.footer-container {
+    background-image: url('../src/assets/images/footerBg.svg');
+}
+
+@media only screen and (min-width: 1870px) {
+    .load-more-container {
+        margin-inline-start: auto;
+        margin-right: 11.5rem;
+    }
+}
+
+.contact-container {
+    background-image: url('../src/assets/images/vector.svg');
+}
